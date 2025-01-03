@@ -1,0 +1,27 @@
+/* Base styles */
+body {
+    margin: 0;
+    overflow: hidden;
+    background: white;
+}
+
+/* Layout/Grid */
+#grid {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Components */
+.cell {
+    border-radius: 2px;
+    background: white;
+    border: 1px solid #eee;
+}
+
+/* Utilities */
+.level-0 { background: white; }
+.level-1 { background: #9be9a8; }
+.level-2 { background: #40c463; }
+.level-3 { background: #30a14e; }
+.level-4 { background: #216e39; }
